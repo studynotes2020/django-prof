@@ -159,3 +159,6 @@ STATICFILES_FINDERS = [
 
 # django-crispy-forms
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+DEFAULT_FROM_EMAIL = 'admin@djangobookstore.com'
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
