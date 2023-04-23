@@ -163,3 +163,6 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 DEFAULT_FROM_EMAIL = 'admin@djangobookstore.com'
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = str(BASE_DIR.joinpath('media'))
